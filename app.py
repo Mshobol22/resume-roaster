@@ -88,7 +88,7 @@ if st.button("🔥 Roast Me!"):
                     mode = "Free"
 
                 # 5. Call AI
-                model = genai.GenerativeModel('gemini-1.5-flash') 
+                model = genai.GenerativeModel('gemini-2.5-flash') 
                 response = model.generate_content(prompt)
                 
                 # 6. Display Results
