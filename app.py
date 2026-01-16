@@ -4,7 +4,7 @@ import pypdf
 import time
 
 # --- CONFIGURATION ---
-MODEL_NAME = "gemini-1.5-flash" # Change to 'gemini-2.5-flash' if you have access
+MODEL_NAME = "gemini-2.5-flash" # Change to 'gemini-2.5-flash' if you have access
 st.set_page_config(page_title="Roast My Resume", page_icon="🔥", layout="centered")
 
 # --- CSS FOR BETTER LOOKS ---
